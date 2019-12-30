@@ -1,5 +1,5 @@
 import { foo } from './module'
-import * as module from '~/module'
+import * as myModule from '~/module'
 
 console.log(foo)
-console.log(module)
+console.log(myModule)

@@ -3,7 +3,7 @@
     "start": "run-p serve build:watch",
     "serve": "http-server static -s",
     "build": "gulp build",
-    "build:watch": "tsc -w"
+    "build:watch": "gulp build && gulp watch"
   },
   "devDependencies": {
     "http-server": "^0.12.0",
